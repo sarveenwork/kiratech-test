@@ -1,8 +1,20 @@
-import Vue from 'vue'
-import App from './App.vue'
+import Vue from "vue";
+import App from "./App.vue";
+import router from "./router";
 
-Vue.config.productionTip = false
+import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap-vue/dist/bootstrap-vue.css";
+import { BootstrapVue, IconsPlugin } from "bootstrap-vue";
+
+import "@fortawesome/fontawesome-free/css/all.css";
+
+import "@/assets/tailwind.css";
+import "@/mixins/helpers";
+
+Vue.use(BootstrapVue);
+Vue.use(IconsPlugin);
 
 new Vue({
-  render: h => h(App),
-}).$mount('#app')
+  router,
+  render: (h) => h(App),
+}).$mount("#app");
