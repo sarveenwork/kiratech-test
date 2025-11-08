@@ -6,7 +6,7 @@
       class="mx-auto flex w-full max-w-6xl items-center justify-between px-6 py-4 sm:px-8 lg:px-10"
     >
       <router-link to="/" class="flex items-center gap-3">
-        <img src="@/assets/Logo.png" alt="Kiratech" class="h-12 w-auto" />
+        <img src="@/assets/logo.png" alt="Kiratech" class="h-12 w-auto" />
       </router-link>
 
       <nav class="flex items-center text-slate-500">
